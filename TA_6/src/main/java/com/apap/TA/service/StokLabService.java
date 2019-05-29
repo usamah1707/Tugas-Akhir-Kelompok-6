@@ -3,14 +3,14 @@ package com.apap.TA.service;
 import java.util.List;
 import java.util.Optional;
 
-import com.apap.TA.model.StokLabModel;
+import com.apap.TA.model.LabSuppliesModel;
 
 public interface StokLabService {
 
-	StokLabModel addStok(StokLabModel stok);
+	LabSuppliesModel addStok(LabSuppliesModel stok);
 
-	List<StokLabModel> getAllStokLab();
+	List<LabSuppliesModel> getAllStokLab();
 
-	Optional<StokLabModel> getDetail(Long id);
+	Optional<LabSuppliesModel> getDetail(Long id);
 
 }

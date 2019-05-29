@@ -15,7 +15,7 @@ import javax.persistence.Table;
  * PasienModel
  */
 @Entity
-@Table(name = "staff")
+@Table(name = "pasien")
 public class PasienModel implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -12,12 +12,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /*
- * StokLabModel
+ * LabSuppliesModel
  */
 
 @Entity
-@Table (name = "stoklab")
-public class StokLabModel implements Serializable {
+@Table (name = "lab_supplies")
+public class LabSuppliesModel implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
