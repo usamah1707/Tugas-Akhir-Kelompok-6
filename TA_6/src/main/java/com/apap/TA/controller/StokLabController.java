@@ -19,28 +19,28 @@ public class StokLabController {
 
 	@Autowired
 	private StokLabService stokLabService;
-	
-	
+
+
     @RequestMapping(value = "/lab/stok/tambah", method = RequestMethod.GET)
     private String add(Model model) {
         model.addAttribute("stok", new LabSuppliesModel());
         return "add-stok";
     }
-    
+
     @RequestMapping(value = "/lab/stok/tambah", method = RequestMethod.POST)
     private String addStokSubmit(@ModelAttribute LabSuppliesModel stok) {
         stokLabService.addStok(stok);
         return "add";
-    
+
     }
     @RequestMapping(value = "/lab/stok", method = RequestMethod.GET)
     private String view(Model model) {
         List<LabSuppliesModel> archiveStok = stokLabService.getAllStokLab();
-        
+
         model.addAttribute("listStok", archiveStok);
         return "view-stok";
     }
-    
+
     @RequestMapping(value = "/lab/stok/ubah/{id}", method = RequestMethod.GET)
     private String update(@PathVariable(value = "id") Long id, Model model) {
     	System.out.println(id);
