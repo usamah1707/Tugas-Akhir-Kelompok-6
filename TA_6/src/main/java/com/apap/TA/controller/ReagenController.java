@@ -3,8 +3,11 @@ package com.apap.TA.controller;
 import com.apap.TA.model.KebutuhanReagenModel;
 import com.apap.TA.service.KebutuhanReagenService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.web.JsonPath;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -22,5 +25,11 @@ public class ReagenController {
         model.addAttribute("reagen", list);
         return "kebutuhan-reagen";
     }
+
+//    @GetMapping(value = "lab/kebutuhan/perencanaan/{id}")
+//    private KebutuhanReagenModel getReagen(@PathVariable("id") Long id){
+//        KebutuhanReagenModel reagenModel = reagenService.getDetail(id).get();
+//        return reagenModel;
+//    }
 
 }
