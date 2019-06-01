@@ -1,81 +1,109 @@
 package com.apap.TA.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
+import javax.persistence.OneToMany;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-import java.io.Serializable;
-import java.sql.Date;
-import java.sql.Time;
-
-/**
- * JadwalJagaModel
- */
 @Entity
-@Table(name = "jadwal_jaga")
-public class JadwalJagaModel implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+@Table (name = "jadwal_jaga")
+public class JadwalJagaModel implements Serializable{
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	@NotNull
+	@Column(name = "tanggal", nullable = false)
+	private Date tanggal;
+	
+	@NotNull
+	@Column(name = "waktu_mulai", nullable = false)
+	private String waktuMulai;
+	
+	@NotNull
+	@Column(name = "waktu_selesai", nullable = false)
+	private String waktuSelesai;
+	
+	/**
+	 * from jadwaljaga to staff
+	 */
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "id_staff", referencedColumnName="id", nullable = false)
+	@OnDelete(action = OnDeleteAction.NO_ACTION)
+	@JsonIgnore
+	private StaffModel idStaff;
+	
+	/**
+	 * from pemeriksaan to jadwaljaga
+	 */
+	//@OneToMany(mappedBy="idJadwal", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+	//private List<PemeriksaanModel> jadwalJagaPemeriksaan;
 
-    @NotNull
-    @Column(name = "tanggal", nullable = false)
-    private Date tanggal;
+	public int getId() {
+		return id;
+	}
 
-    @NotNull
-    @Column(name = "waktu_mulai", nullable = false)
-    private Time waktu_mulai;
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    @NotNull
-    @Column(name = "waktu_selesai", nullable = false)
-    private Time waktu_selesai;
+	public Date getTanggal() {
+		return tanggal;
+	}
 
-    @OneToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "id_staff", referencedColumnName = "id")
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    @JsonIgnore
-    private StaffModel staff;
+	public void setTanggal(Date tanggal) {
+		this.tanggal = tanggal;
+	}
 
-    public long getId() {
-        return id;
-    }
+	public String getWaktuMulai() {
+		return waktuMulai;
+	}
 
-    public void setId(long id) {
-        this.id = id;
-    }
+	public void setWaktuMulai(String waktuMulai) {
+		this.waktuMulai = waktuMulai;
+	}
 
-    public Date getTanggal() {
-        return tanggal;
-    }
+	public String getWaktuSelesai() {
+		return waktuSelesai;
+	}
 
-    public void setTanggal(Date tanggal) {
-        this.tanggal = tanggal;
-    }
+	public void setWaktuSelesai(String waktuSelesai) {
+		this.waktuSelesai = waktuSelesai;
+	}
 
-    public Time getWaktu_mulai() {
-        return waktu_mulai;
-    }
+	public StaffModel getIdStaff() {
+		return idStaff;
+	}
 
-    public void setWaktu_mulai(Time waktu_mulai) {
-        this.waktu_mulai = waktu_mulai;
-    }
+	public void setIdStaff() {
+		this.idStaff = idStaff;
+	}
 
-    public Time getWaktu_selesai() {
-        return waktu_selesai;
-    }
+	//public List<PemeriksaanModel> getJadwalJagaPemeriksaan() {
+//		return jadwalJagaPemeriksaan;
+	//}
 
-    public void setWaktu_selesai(Time waktu_selesai) {
-        this.waktu_selesai = waktu_selesai;
-    }
+	//public void setJadwalJagaPemeriksaan(List<PemeriksaanModel> jadwalJagaPemeriksaan) {
+	//	this.jadwalJagaPemeriksaan = jadwalJagaPemeriksaan;
+	//}
+	
+	
+	
 
-    public StaffModel getStaff() {
-        return staff;
-    }
-
-    public void setStaff(StaffModel staff) {
-        this.staff = staff;
-    }
 }
