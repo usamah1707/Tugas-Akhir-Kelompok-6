@@ -9,18 +9,22 @@
     <nav th:replace="fragments/fragment :: navbar"></nav>
     <div class="container-fluid">
         <br>
-
         <div th:if="${#lists.isEmpty(jadwal)}">
             <h3>Belum Ada Perencanaan Jadwal</h3>
         </div>
-
+        <form th:action="@{/lab/pemeriksaan/permintaan}">
+			<input type="hidden">
+			<button type="submit" class="btn btn-primary">Request Jadwal</button>
+		</form>
+		<br>
         <div class="row">
             <div class="col-md-6">
                 <div class="card" th:each="jadwal,iterationStatus : ${jadwal}">
                     <div class="card-header" th:text="'Jadwal ID : ' + ${jadwal.id}"></div>
                     <div class="card-body">
+                    	<p th:text="'Nama        	: ' + ${jadwal.nama}"></p>
+                    	<p th:text="'Tanggal input  : ' + ${jadwal.tanggal_pengajuan}"></p>
                         <p th:text="'Status         : ' + ${jadwal.status}"></p>
-                        <p th:text="'Hasil			: ' + ${jadwal.hasil}"></p>
                         <div class="row">
                             <button>
                             <td><a th:href="@{/lab/pemeriksaan/permintaan} + @{jadwal.id}">Update Informasi Jadwal Periksa</a></td>
@@ -30,6 +34,5 @@
                 </div>
             </div>
         </div>
-
 </body>
 </html>
