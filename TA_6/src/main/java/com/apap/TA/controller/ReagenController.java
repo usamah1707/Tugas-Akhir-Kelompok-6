@@ -41,6 +41,8 @@ public class ReagenController {
     private String updateReagen(@ModelAttribute KebutuhanReagenModel reagen, Model model) {
         Date date = new Date(Calendar.getInstance().getTime().getTime());
         reagen.setTanggal_update(date);
+        reagen.setJumlah(reagenService.getDetail(reagen.getId()).get().getJumlah());
+        reagen.setLab_supplies(reagenService.getDetail(reagen.getId()).get().getLab_supplies());
         reagenService.addKebutuhan(reagen);
         return "update";
     }
