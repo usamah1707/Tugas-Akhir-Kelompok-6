@@ -49,7 +49,7 @@ public class PemeriksaanModel implements Serializable {
 
     @NotNull
     @Column(name = "status", nullable = false)
-    private long status;
+    private String status;
 
     @NotNull
     @Size(max = 255)
@@ -104,11 +104,11 @@ public class PemeriksaanModel implements Serializable {
         this.jadwal_jaga = jadwal_jaga;
     }
 
-    public long getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(long status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 
