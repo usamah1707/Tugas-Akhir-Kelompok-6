@@ -13,7 +13,11 @@
         <div th:if="${#lists.isEmpty(reagen)}">
             <h3>Perencanaan Kebutuhan Reagen Belum Diajukan</h3>
         </div>
-
+        <form th:action="@{/lab/kebutuhan/tambah}">
+            <input type="hidden">
+            <button type="submit" class="btn btn-primary">Ajukan Kebutuhan Reagen</button>
+        </form>
+        <br>
         <div class="row">
             <div class="col-md-6">
                 <div class="card" th:each="reagen,iterationStatus : ${reagen}">
@@ -25,7 +29,7 @@
 
                         <div class="row">
                             <button>
-                            <td><a th:href="@{ubah/} + ${reagen.id}">Update Informasi Reagen</a></td>
+                            <td><a th:href="@{kebutuhan/ubah/} + ${reagen.id}">Update Informasi Reagen</a></td>
                             </button>
                         </div>
                     </div>

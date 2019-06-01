@@ -12,7 +12,7 @@
 <nav th:replace="fragments/fragment :: navbar"></nav>
 
 <div class="container-fluid">
-    <h2>Hello!</h2>
+    <br>
     <div class="row">
         <div class="col-md-6">
             <div class="card">
@@ -30,7 +30,10 @@
                         <input type="text" th:value="${reagen.jumlah}" name="jumlah" class="form-control" disabled/>
                         <br>
                         Status: <br>
-                        <input type="number" th:value="${reagen.status}" name="status" class="form-control"/>
+                        <select type="number" th:value="${reagen.status}" name="status" class="form-control">
+                            <option value="0">0 - TIDAK AKTIF / SUDAH DIBELI</option>
+                            <option value="1">1 - AKTIF / BELUM DIBELI</option>
+                        </select>
                         <br>
                         Terakhir Update: <br>
                         <input type="text" th:value="${reagen.tanggal_update}" name="tanggal_update" class="form-control" disabled/>
