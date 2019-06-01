@@ -9,7 +9,7 @@ public interface PemeriksaanService {
 
 	PemeriksaanModel addJadwal(PemeriksaanModel jadwal);
 
-    List<PemeriksaanModel> getAllJadwal();
+	List<PemeriksaanModel> getAllJadwal();
 
-    Optional<PemeriksaanModel> getDetail(Long id);
+	Optional<PemeriksaanModel> getDetail(Long id);
 }
