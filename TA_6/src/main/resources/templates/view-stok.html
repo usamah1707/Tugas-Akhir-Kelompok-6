@@ -22,7 +22,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="card" th:each="stok,iterationStatus : *{listStok}">
-					<div class="card-header" th:text="'Id ' + ${stok.id}"></div>
+					<div class="card-header" th:text="'Id : ' + ${stok.id}"></div>
 					<div class="card-body">
 						<p th:text="'Jenis Barang: ' + ${stok.jenisBarang}"></p>
 						<p th:text="'Nama Barang: ' + ${stok.namaBarang}"></p>
@@ -35,12 +35,13 @@
 								<button type="submit" class="btn btn-primary">Update
 									Stok</button>
 							</form> -->
-							<td><a th:href="@{/lab/stok/ubah/} + ${stok.id}">Update Stok</a></td>
+							&nbsp &nbsp &nbsp<td><a th:href="@{/lab/stok/ubah/} + ${stok.id}">Update Stok</a></td>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<br>
 		<br>
 	</div>
 </body>
