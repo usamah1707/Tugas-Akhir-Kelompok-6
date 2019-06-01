@@ -16,7 +16,7 @@ public class ReagenController {
     @Autowired
     private KebutuhanReagenService reagenService;
 
-    @RequestMapping(value = "/lab/kebutuhan", method = RequestMethod.GET)
+    @RequestMapping(value = "/lab/kebutuhan/tambah", method = RequestMethod.GET)
     private String view(Model model) {
         List<KebutuhanReagenModel> list = reagenService.getAllKebutuhanReagen();
         model.addAttribute("reagen", list);
