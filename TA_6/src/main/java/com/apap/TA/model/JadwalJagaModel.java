@@ -47,13 +47,13 @@ public class JadwalJagaModel implements Serializable{
 	@JoinColumn(name = "id_staff", referencedColumnName="id", nullable = false)
 	@OnDelete(action = OnDeleteAction.NO_ACTION)
 	@JsonIgnore
-	private StaffModel idStaff;
+	private StaffModel staff;
 	
 	/**
 	 * from pemeriksaan to jadwaljaga
 	 */
-	//@OneToMany(mappedBy="idJadwal", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-	//private List<PemeriksaanModel> jadwalJagaPemeriksaan;
+	@OneToMany(mappedBy="jadwal_jaga", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+	private List<PemeriksaanModel> jadwalJagaPemeriksaan;
 
 	public int getId() {
 		return id;
@@ -88,20 +88,20 @@ public class JadwalJagaModel implements Serializable{
 	}
 
 	public StaffModel getIdStaff() {
-		return idStaff;
+		return staff;
 	}
 
 	public void setIdStaff() {
-		this.idStaff = idStaff;
+		this.staff = staff;
 	}
 
-	//public List<PemeriksaanModel> getJadwalJagaPemeriksaan() {
-//		return jadwalJagaPemeriksaan;
-	//}
+	public List<PemeriksaanModel> getJadwalJagaPemeriksaan() {
+	return jadwalJagaPemeriksaan;
+	}
 
-	//public void setJadwalJagaPemeriksaan(List<PemeriksaanModel> jadwalJagaPemeriksaan) {
-	//	this.jadwalJagaPemeriksaan = jadwalJagaPemeriksaan;
-	//}
+	public void setJadwalJagaPemeriksaan(List<PemeriksaanModel> jadwalJagaPemeriksaan) {
+		this.jadwalJagaPemeriksaan = jadwalJagaPemeriksaan;
+	}
 	
 	
 	

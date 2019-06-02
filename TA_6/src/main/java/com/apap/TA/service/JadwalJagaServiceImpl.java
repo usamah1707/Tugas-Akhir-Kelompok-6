@@ -1,11 +1,13 @@
 package com.apap.TA.service;
 
 import java.util.Date;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.apap.TA.model.JadwalJagaModel;
+import com.apap.TA.model.StaffModel;
 import com.apap.TA.repository.JadwalJagaDb;
 
 public class JadwalJagaServiceImpl implements JadwalJagaService{
@@ -32,9 +34,10 @@ public class JadwalJagaServiceImpl implements JadwalJagaService{
 	}
 
 	@Override
-	public List<JadwalJagaModel> findAll() {
+	public List<JadwalJagaModel> getJadwalListByStaff (StaffModel staff) {
 		// TODO Auto-generated method stub
-		return jadwalJagaDb.findAll();
+		List<JadwalJagaModel> listJaga = jadwalJagaDb.findByStaff(staff);
+		return listJaga;
 	}
 	
 

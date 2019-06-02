@@ -1,6 +1,7 @@
 package com.apap.TA.controller;
 
 import java.time.LocalDate;
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -27,15 +28,6 @@ public class JadwalJagaController {
 	@RequestMapping(value ="/lab/jadwal-jaga/tambah", method = RequestMethod.GET)
 	private String addJadwal (Model model) {
 		
-		model.addAttribute("listStaff", staffService.getAllStaff());
-		
-		//get todays date and waktuMulai for constrain
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm");
-        String nowTime = LocalTime.now().format(dtf);
-		model.addAttribute("timeNow", nowTime);
-		System.out.println(nowTime);
-		LocalDate today = LocalDate.now();
-		model.addAttribute("today", today);
 		model.addAttribute("jadwal", new JadwalJagaModel());
 		return "add-jadwal";
 		
