@@ -47,7 +47,7 @@ public class StaffModel implements Serializable {
         this.nama_staff = nama_staff;
     }
     @OneToMany (mappedBy="staff", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
-    private List <JadwalJagaModel> staffLab;
+    private List <JadwalJagaModel> listJadwal;
     
 }
 

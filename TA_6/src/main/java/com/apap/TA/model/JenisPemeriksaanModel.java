@@ -18,13 +18,9 @@ import java.sql.Time;
 @Entity
 @Table(name = "jenis_pemeriksaan")
 public class JenisPemeriksaanModel implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @OneToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "id", referencedColumnName = "id")
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    @JsonIgnore
-    private PemeriksaanModel pemeriksaan;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 
     @NotNull
     @Size(max = 255)
@@ -37,13 +33,6 @@ public class JenisPemeriksaanModel implements Serializable {
     @JsonIgnore
     private LabSuppliesModel lab_supplies;
 
-    public PemeriksaanModel getPemeriksaan() {
-        return pemeriksaan;
-    }
-
-    public void setPemeriksaan(PemeriksaanModel pemeriksaan) {
-        this.pemeriksaan = pemeriksaan;
-    }
 
     public String getNama() {
         return nama;

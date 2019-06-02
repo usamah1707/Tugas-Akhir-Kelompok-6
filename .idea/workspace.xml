@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2c41b4-f067-42bd-86c9-9a37f436c6ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JenisPemeriksaanDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-jadwal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-staff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/StaffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/StaffModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JadwalJagaDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JadwalJagaDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-Jadwal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update-pemeriksaan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TA_6/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="845">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -44,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/TA_6Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="357">
               <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
@@ -319,7 +347,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559463533833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559513845976" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/tutorial-08" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -372,17 +400,18 @@
       <option name="presentableId" value="Default" />
       <updated>1559004670028</updated>
       <workItem from="1559004674201" duration="4644000" />
-      <workItem from="1559089137684" duration="33707000" />
+      <workItem from="1559089137684" duration="34386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38351000" />
+    <option name="totallyTimeSpent" value="39030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,7 +421,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,13 +450,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-stok.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -800,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="845">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
@@ -839,16 +861,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="29">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="357">
           <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -856,10 +878,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/TA_6Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
