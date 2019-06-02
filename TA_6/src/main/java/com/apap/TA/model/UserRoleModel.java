@@ -78,7 +78,7 @@ public class UserRoleModel implements Serializable {
 	 */
 	public String getUsername() {
 		return username;
-	}
+	}	
 	/**
 	 * @param username the username to set
 	 */
