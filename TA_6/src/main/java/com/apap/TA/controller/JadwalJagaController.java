@@ -19,15 +19,15 @@ import com.apap.TA.service.StaffService;
 
 @Controller
 public class JadwalJagaController {
+
+	@Autowired
+	private StaffService staffService;
+
 	@Autowired
 	private JadwalJagaService jadwalJagaService;
-	
-	@Autowired 
-	private StaffService staffService;
 
 	@RequestMapping(value ="/lab/jadwal-jaga/tambah", method = RequestMethod.GET)
 	private String addJadwal (Model model) {
-		
 		model.addAttribute("jadwal", new JadwalJagaModel());
 		return "add-jadwal";
 		
@@ -37,12 +37,12 @@ public class JadwalJagaController {
 		jadwalJagaService.addJadwal(jadwal);
 		return "add-jadwal-submit";
 	}
-	@RequestMapping(value ="/lab/staff-jaga/tambah", method = RequestMethod.GET)
+	@RequestMapping(value ="/lab/staff-jaga/tambah/{}", method = RequestMethod.GET)
 	private String addStaff (Model model) {
 		model.addAttribute("staff", new StaffModel());
 		return "add-staff";
 	}
-	@RequestMapping (value = "/lab/staff-jaga/tambah", method = RequestMethod.GET)
+	@RequestMapping (value = "/lab/staff-jaga/tambah", method = RequestMethod.POST)
 	private String addStaffSubmit (@ModelAttribute StaffModel staff) {
 		staffService.addStaff(staff);
 		return "add-staff-submit";

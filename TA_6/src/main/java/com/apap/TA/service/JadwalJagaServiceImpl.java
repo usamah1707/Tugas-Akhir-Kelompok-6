@@ -1,6 +1,6 @@
 package com.apap.TA.service;
 
-import java.util.Date;
+import java.sql.Date;
 
 import java.util.List;
 
@@ -9,7 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.apap.TA.model.JadwalJagaModel;
 import com.apap.TA.model.StaffModel;
 import com.apap.TA.repository.JadwalJagaDb;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+@Service
+@Transactional
 public class JadwalJagaServiceImpl implements JadwalJagaService{
 	@Autowired 
 	private JadwalJagaDb jadwalJagaDb;
@@ -25,12 +29,6 @@ public class JadwalJagaServiceImpl implements JadwalJagaService{
 	public JadwalJagaModel findById(int id) {
 		// TODO Auto-generated method stub
 		return jadwalJagaDb.findById(id);
-	}
-
-	@Override
-	public List<JadwalJagaModel> findByDate(Date tanggal) {
-		// TODO Auto-generated method stub
-		return jadwalJagaDb.findByDate(tanggal);
 	}
 
 	@Override
