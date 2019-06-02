@@ -40,7 +40,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll();
     }
 
-<<<<<<< HEAD
 	//@Autowired
 	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
 		//auth.inMemoryAuthentication()
@@ -48,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	 		//.withUser("cokicoki").password(encoder().encode("enakSekali"))
 	 		//.roles("USER");
 	 //}
-=======
+
 	@Autowired
 	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
 		auth.inMemoryAuthentication()
@@ -56,13 +55,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	 		.withUser("admin").password(encoder().encode(""))
 	 		.roles("ADMIN");
 	 }
->>>>>>> 59136c5e17258a92af761335e01fa1d3ebc9e7ea
+
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
-<<<<<<< HEAD
+
 	
 	@Autowired
 	private UserDetailsService userDetailsService;
@@ -72,8 +71,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService).passwordEncoder(encoder());
     }
  
-=======
 
-
->>>>>>> 59136c5e17258a92af761335e01fa1d3ebc9e7ea
 }
