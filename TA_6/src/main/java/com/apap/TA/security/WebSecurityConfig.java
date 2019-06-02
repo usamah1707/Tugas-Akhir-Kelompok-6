@@ -21,7 +21,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/css/**").permitAll()
                 .antMatchers("/js/**").permitAll()
                 //.antMatchers("/", "/login", "/kebutuhan").hasAnyAuthority("Admin", "Staf")
-               
+
                 //.antMatchers("/lab/kebutuhan/ubah/**", "/lab/jadwal-jaga/tambah","/lab/jadwal-jaga/ubah/**", "/lab/stok/tambah", "/lab/stok/ubah/**")
                 //.hasAnyAuthority("Admin", "GOD")
                 //.antMatchers("/lab/kebutuhan", "/lab/pemeriksaan/permintaan", "/lab/pemeriksaan/**", "/lab/jadwal-jaga/all", "/lab/jadwal-jaga/**", "/lab/stok")
@@ -40,6 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll();
     }
 
+<<<<<<< HEAD
 	//@Autowired
 	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
 		//auth.inMemoryAuthentication()
@@ -47,11 +48,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	 		//.withUser("cokicoki").password(encoder().encode("enakSekali"))
 	 		//.roles("USER");
 	 //}
+=======
+	@Autowired
+	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+		auth.inMemoryAuthentication()
+			.passwordEncoder(encoder())
+	 		.withUser("admin").password(encoder().encode(""))
+	 		.roles("ADMIN");
+	 }
+>>>>>>> 59136c5e17258a92af761335e01fa1d3ebc9e7ea
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
+<<<<<<< HEAD
 	
 	@Autowired
 	private UserDetailsService userDetailsService;
@@ -61,4 +72,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService).passwordEncoder(encoder());
     }
  
+=======
+
+
+>>>>>>> 59136c5e17258a92af761335e01fa1d3ebc9e7ea
 }
