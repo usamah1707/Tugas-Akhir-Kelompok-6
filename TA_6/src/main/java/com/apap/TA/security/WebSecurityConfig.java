@@ -56,11 +56,19 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	 		.withUser("admin").password(encoder().encode(""))
 	 		.roles("ADMIN");
 	 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0a7f98ab25c79aa6cdb1b592c5e2374c01d170f
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> c0a7f98ab25c79aa6cdb1b592c5e2374c01d170f
 	
 	@Autowired
 	private UserDetailsService userDetailsService;

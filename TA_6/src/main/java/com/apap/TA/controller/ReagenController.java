@@ -3,6 +3,7 @@ package com.apap.TA.controller;
 import com.apap.TA.model.KebutuhanReagenModel;
 import com.apap.TA.model.LabSuppliesModel;
 import com.apap.TA.service.KebutuhanReagenService;
+import com.apap.TA.service.StokLabService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.web.JsonPath;
 import org.springframework.stereotype.Controller;
@@ -14,6 +15,7 @@ import org.thymeleaf.util.DateUtils;
 import java.sql.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -22,7 +24,31 @@ public class ReagenController {
 
     @Autowired
     private KebutuhanReagenService reagenService;
+    
+    @Autowired
+    private StokLabService labSuppliesService;
+    
+ // untuk menambah perencanaan kebutuhan reagen
+    @RequestMapping(value = "/lab/kebutuhan/tambah", method = RequestMethod.GET)
+    private String tambahKebutuhan(Model model) {
+    	List<LabSuppliesModel> listStok = labSuppliesService.getAllStokLab();
+    	List<LabSuppliesModel> listReagen = new ArrayList<LabSuppliesModel>();
+    	for(LabSuppliesModel stok : listStok) {
+    		if (stok.getJenisBarang().equalsIgnoreCase("Reagen")) {
+    			listReagen.add(stok);
+    		}
+    	}
+    	model.addAttribute("kebutuhan", new KebutuhanReagenModel());
+        model.addAttribute("listReagen", listReagen);
+        return "add-kebutuhan";
+    }
 
+    @RequestMapping(value = "/lab/kebutuhan/tambah", method = RequestMethod.POST)
+    private String tambahKebutuhanSubmit(@ModelAttribute KebutuhanReagenModel kebutuhan, Model model) {
+    	reagenService.addKebutuhan(kebutuhan);	
+        model.addAttribute("success", "Berhasil!");
+        return "add-kebutuhan";
+    }
     @RequestMapping(value = "/lab/kebutuhan", method = RequestMethod.GET)
     private String view(Model model) {
         List<KebutuhanReagenModel> list = reagenService.getAllKebutuhanReagen();
