@@ -1,6 +1,7 @@
 package com.apap.TA.controller;
 
 
+import com.apap.TA.repository.UserRoleDb;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -15,10 +16,18 @@ import com.apap.TA.service.UserRoleService;
 public class UserRoleController {
 	@Autowired
 	private UserRoleService userService;
+
+	@Autowired
+	private UserRoleDb userRoleDb;
 	
 	@RequestMapping(value = "/addUser", method = RequestMethod.POST)
 	private String addUserSubmit(@ModelAttribute UserRoleModel user) {
-		userService.addUser(user);
-		return "home";
+		String username = user.getUsername();
+		if (!userRoleDb.findByUsername(username).getUsername().equalsIgnoreCase(username)){
+			userService.addUser(user);
+			return "home";
+		}
+		return "username-exist";
 	}
+
 }
