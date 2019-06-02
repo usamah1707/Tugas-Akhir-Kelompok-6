@@ -13,7 +13,7 @@ public interface JadwalJagaService {
 	//ini buat liat seluruh jadwal berdasarkan tanggal
 	Optional <JadwalJagaModel> findByTanggal (Date Tanggal);
 	//ini liat seluruh jadwal berdasarkan id 
-	Optional <JadwalJagaModel> getJadwalDetail (long id);
+	Optional <JadwalJagaModel> getJadwalDetail (int id);
 	
 
 }

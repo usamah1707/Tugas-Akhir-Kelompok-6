@@ -20,7 +20,7 @@
                         Masukkan data berikut
                     </div>
                     <div class="card-body">
-                        <form th:action="@{/lab/pemeriksaan/permintaan/} + ${pasien.id}" th:object="${pasien}" method="POST">
+                        <form th:action="@{/lab/pemeriksaan/permintaan/pasien/} + ${pasien.id}" th:object="${jadwal}" method="POST">
                             Nama Pasien: <br>
                             <input type="text" th:value= "${pasien.nama_pasien}" name="namaPasien" class="form-control"disabled/>
                             <br>
@@ -36,7 +36,29 @@
                             Hasil: <br>
                             <input type="text" name="hasil" class="form-control"/>
                             <br>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            Jadwal Jaga: <br> 
+                            <select name="jadwal_jaga" class="form-control"
+								id="exampleFormControlSelect1">
+								<option th:value="0" disabled th:text="'Pilih Jadwal Jaga'">
+								</option>
+								<option th:each="jadwal_jaga : ${jaga}"
+									th:value="${jadwal_jaga.id}"
+									th:text="${jadwal_jaga.id}">
+								</option>
+							</select>
+							<br>
+							Jenis Pemeriksaan: <br> 
+                            <select name="jenis_pemeriksaan" class="form-control"
+								id="exampleFormControlSelect1">
+								<option th:value="0" disabled th:text="'Pilih Jenis Pemeriksaan'">
+								</option>
+								<option th:each="jenis_pemeriksaan : ${jenis}"
+									th:value="${jenis_pemeriksaan.id}"
+									th:text="${jenis_pemeriksaan.nama}">
+								</option>
+							</select>
+							<br>
+							<button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>

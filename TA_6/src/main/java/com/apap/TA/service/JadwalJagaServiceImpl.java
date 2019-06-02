@@ -38,7 +38,7 @@ public class JadwalJagaServiceImpl implements JadwalJagaService{
 	}
 
 	@Override
-	public Optional<JadwalJagaModel> getJadwalDetail(long id) {
+	public Optional<JadwalJagaModel> getJadwalDetail(int id) {
 		// TODO Auto-generated method stub
 		return jadwalJagaDb.findById(id);
 	}
