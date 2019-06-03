@@ -23,9 +23,9 @@ public class UserRoleController {
 	@RequestMapping(value = "/addUser", method = RequestMethod.POST)
 	private String addUserSubmit(@ModelAttribute UserRoleModel user) {
 		String username = user.getUsername();
-		if (!userRoleDb.findByUsername(username).getUsername().equalsIgnoreCase(username)){
-			userService.addUser(user);
-			return "home";
+		if(userRoleDb.findByUsername(username) == null) {
+				userService.addUser(user);
+				return "home";
 		}
 		return "username-exist";
 	}
