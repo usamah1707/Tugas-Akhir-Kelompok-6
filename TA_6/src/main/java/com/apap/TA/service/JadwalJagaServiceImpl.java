@@ -17,7 +17,7 @@ import com.apap.TA.service.JadwalJagaService;
 
 @Service
 @Transactional
-public class JadwalJagaServiceImpl implements JadwalJagaService{
+public class 	JadwalJagaServiceImpl implements JadwalJagaService{
 	
 	@Autowired
 	private JadwalJagaDb jadwalJagaDb;

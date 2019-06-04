@@ -4,10 +4,13 @@
     <list default="true" id="2a2c41b4-f067-42bd-86c9-9a37f436c6ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TA_6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/static/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-jadwal.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-jadwal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-stok.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-stok.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" afterDir="false" />
@@ -27,78 +30,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/login-frag.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PageController.java">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-              </folding>
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JenisPemeriksaanDb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
-                <element signature="e#2669#2670#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/KebutuhanReagenModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="318">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,28 +87,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/StokLabController.java">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-kebutuhan-reagen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="358">
+              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JadwalJagaModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/LabSuppliesModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,23 +149,19 @@
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PasienModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/LabSuppliesModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PemeriksaanModel.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/UserRoleModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/StokLabDb.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/KebutuhanReagenDb.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/KebutuhanReagenService.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/StokLabServiceImpl.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/WebServiceController.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/update.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/KebutuhanReagenModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/KebutuhanReagenServiceImpl.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/StaffServiceImpl.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JadwalJagaModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JadwalJagaDb.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaService.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/error/404.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/username-exist.html" />
@@ -201,8 +185,12 @@
         <option value="$PROJECT_DIR$/TA_6/pom.xml" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" />
       </list>
     </option>
   </component>
@@ -361,7 +349,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559633477967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559637465497" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/tutorial-08" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,12 +405,12 @@
       <workItem from="1559004674201" duration="4644000" />
       <workItem from="1559089137684" duration="57429000" />
       <workItem from="1559621087790" duration="258000" />
-      <workItem from="1559625555267" duration="7061000" />
+      <workItem from="1559625555267" duration="10931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69392000" />
+    <option name="totallyTimeSpent" value="73262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -448,8 +436,8 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,77 +455,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/WebServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/KebutuhanReagenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/StokLabService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/KebutuhanReagenServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-pemeriksaan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/LabSuppliesModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/KebutuhanReagenModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-kebutuhan-reagen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/UserRoleModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
@@ -592,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/TA_6Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -620,30 +530,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PemeriksaanModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JenisPemeriksaanDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -734,20 +620,6 @@
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/add.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/add-kebutuhan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-jadwal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JadwalJagaDb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -758,43 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JadwalJagaModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/StokLabController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -853,21 +692,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="406">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-jadwal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/add-kebutuhan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PemeriksaanModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PasienModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/TA_6Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-kebutuhan-reagen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JadwalJagaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/LabSuppliesModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/KebutuhanReagenModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/JenisPemeriksaanDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JenisPemeriksaanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
