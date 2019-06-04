@@ -26,6 +26,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/css/**").permitAll()
                 .antMatchers("/js/**").permitAll()
                 //.antMatchers("/", "/login", "/kebutuhan").hasAnyAuthority("Admin", "Staf")
+
+                //.antMatchers("/lab/kebutuhan/ubah/**", "/lab/jadwal-jaga/tambah","/lab/jadwal-jaga/ubah/**", "/lab/stok/tambah", "/lab/stok/ubah/**")
+               // .hasAnyAuthority("Admin","GOD")
+               // .antMatchers("/lab/kebutuhan", "/lab/pemeriksaan/permintaan", "/lab/pemeriksaan/**", "/lab/jadwal-jaga/all", "/lab/jadwal-jaga/**", "/lab/stok")
+                //.hasAnyAuthority("Admin", "Staf","GOD")
+                //.antMatchers("/lab/kebutuhan/tambah")
+               // .hasAnyAuthority("Staf","GOD")
+
+              //  .antMatchers("/kebutuhan/ubah").hasAnyAuthority("Admin")
                 //.antMatchers("/lab/kebutuhan/ubah/**", "/lab/jadwal-jaga/tambah","/lab/jadwal-jaga/ubah/**", "/lab/stok/tambah", "/lab/stok/ubah/**")
                 //.hasAnyAuthority("Admin", "GOD")
                 //.antMatchers("/lab/kebutuhan", "/lab/pemeriksaan/permintaan", "/lab/pemeriksaan/**", "/lab/jadwal-jaga/all", "/lab/jadwal-jaga/**", "/lab/stok")
@@ -33,6 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 //.antMatchers("/lab/kebutuhan/tambah")
                 //.hasAnyAuthority("Staf", "GOD")
                 //.antMatchers("/kebutuhan/ubah").hasAnyAuthority("Admin")
+                
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -44,6 +54,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+	//@Autowired
+	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+		//auth.inMemoryAuthentication()
+			//.passwordEncoder(encoder())
+	 		//.withUser("cokicoki").password(encoder().encode("enakSekali"))
+	 		//.roles("USER");
+	 //}
+
+	//@Autowired
+	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+		//auth.inMemoryAuthentication()
+			//.passwordEncoder(encoder())
+	 		//.withUser("admin").password(encoder().encode(""))
+	 		//.roles("ADMIN");
+	 //}
 	@Autowired
 	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
 		auth.inMemoryAuthentication()
@@ -56,6 +81,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
+
 
 
 	
