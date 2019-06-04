@@ -17,28 +17,27 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header">
-                    <h4 th:text="'Update Permintaan Jadwal - Nama Pasien: ' + ${jadwal.nama}"></h4>
+                    <h4 th:text="'Update Permintaan Jadwal - ID Jadwal: ' + ${jadwal.id}"></h4>
                 </div>
                 <div class="card-body">
-                    <form th:action="@{/lab/pemeriksaan/{jadwal.id}" th:object="${jadwal}" method="POST">
+                    <form th:action="@{/lab/pemeriksaan/ubah}" th:object="${jadwal}" method="POST">
                         <input type="hidden" name="id" th:value="${jadwal.id}" />
-
-                        Nama Pasien: <br>
-                        <input type="text" th:value="${jadwal.nama}" name="nama_pasien" class="form-control" disabled/>
+                        ID Jadwal: <br>
+                        <input type="text" th:value="${jadwal.id}" name="tanggal_pengajuan" class="form-control" disabled/>
                         <br>
-                        Tanggal Input: <br>
-                        <input type="text" th:value="${jadwal.tanggal_pengajuan}" name="tanggal_pengajuan" class="form-control" disabled/>
+                        Tanggal Pemeriksaan: <br>
+                        <input type="text" th:value="${jadwal.tanggal_pemeriksaan}" name="tanggal_pengajuan" class="form-control" disabled/>
+                        <br>
+                        Hasil: <br>
+                        <input type="text" th:value="${jadwal.hasil}" name="hasil" class="form-control"/>
                         <br>
                         Status: <br>
-                        <select type="number" th:value="${reagen.status}" name="status" class="form-control">
-                            <option value="0">Menunggu Persetujuan</option>
-                            <option value="1">Diproses</option>
-                            <option value="2">Selesai</option>
+                        <select type="text" th:value="${jadwal.status}" name="status" class="form-control">
+                            <option value="Menunggu Persetujuan">Menunggu Persetujuan</option>
+                            <option value="Diproses">Diproses</option>
+                            <option value="Selesai">Selesai</option>
                         </select>
                         <br>
-                        Terakhir Update: <br>
-                        <input type="text" th:value="${jadwal.tanggal_pemeriksaan}" name="tanggal_pemeriksaan" class="form-control" disabled/>
-                        <br><br>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
