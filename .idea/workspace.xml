@@ -2,27 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2c41b4-f067-42bd-86c9-9a37f436c6ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/17/60da53f4a6860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1b/004218d0a4860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1e/70ed00c2a4860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/25/a0faf6ffa6860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/28/609e83caa5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/30/d08d6282aa860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3a/e07121c5a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/40/3022aca6a7860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4d/404f99b5a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/55/40495ce3a6860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6/90d25e90a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6f/60a1be8ca5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/75/b04d549ba5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/81/10da73d0a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8e/a042e7dca5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/95/c0bd11f4a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/bd/80488a81a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/be/b0bbd452a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c2/7009c296a7860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c5/d0e4e84aaa860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d/f08bf7aea7860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d4/2099fd31a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/dc/a0fbed86a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/de/60ee91f7a6860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e4/40dfac99a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ea/7014117baa860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ee/e0cc8bd7a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ef/b07a42bca5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f0/a0a18b84a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f2/30017fb0a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f4/50bdef40a5860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f9/a0d94de8a6860019106f81ff3bf6fe99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_k.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_k" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/e4/b9/db/39/23/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/e4/b9/db/39/23/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/e4/b9/db/39/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/e4/b9/db/39/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.indexes/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/TA_6/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/5.snap" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/5.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1109255368.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1109255368.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a_2.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_b.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_c.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_d.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/static/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-jadwal.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-jadwal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-kebutuhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-kebutuhan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-staff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-stok.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-stok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update-stok.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update-stok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html" beforeDir="false" afterPath="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TA_6/target/" />
@@ -34,80 +76,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-jadwal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-kebutuhan-reagen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-stok.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/username-exist.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update-pemeriksaan.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-stok.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-617">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="1530">
+              <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="-17">
+              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="148">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -171,18 +197,19 @@
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/StaffModel.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/login-frag.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/TA_6/pom.xml" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/fragments/fragment.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PemeriksaanController.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/JadwalJagaServiceImpl.java" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/add-pemeriksaan.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/JenisPemeriksaanModel.java" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html" />
-        <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html" />
         <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/TA_6/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/TA_6/pom.xml" />
       </list>
     </option>
   </component>
@@ -341,7 +368,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559638852612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559641646790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/tutorial-08" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -397,18 +424,18 @@
       <workItem from="1559004674201" duration="4644000" />
       <workItem from="1559089137684" duration="57429000" />
       <workItem from="1559621087790" duration="258000" />
-      <workItem from="1559625555267" duration="12804000" />
+      <workItem from="1559625555267" duration="14632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75135000" />
+    <option name="totallyTimeSpent" value="76963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -418,7 +445,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,20 +474,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/PasienDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/repository/PemeriksaanDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/service/StaffService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -522,18 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/model/PemeriksaanModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -555,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="48" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -627,31 +621,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/JadwalJagaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-305">
           <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,16 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-447">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/UserRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,13 +708,6 @@
         <state relative-caret-position="-459" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/update.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -783,34 +741,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pasien.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-stok.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="284">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-pemeriksaan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="216">
           <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html">
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-stok.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="97">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-jadwal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="182">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/UserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/TA_6.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/view-reagen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/java/com/apap/TA/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA_6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
         </state>
       </provider>
     </entry>

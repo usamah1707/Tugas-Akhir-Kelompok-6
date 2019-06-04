@@ -53,44 +53,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll();
     }
 
-
-	//@Autowired
-	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-		//auth.inMemoryAuthentication()
-			//.passwordEncoder(encoder())
-	 		//.withUser("cokicoki").password(encoder().encode("enakSekali"))
-	 		//.roles("USER");
-	 //}
-
-	//@Autowired
-	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-		//auth.inMemoryAuthentication()
-			//.passwordEncoder(encoder())
-	 		//.withUser("admin").password(encoder().encode(""))
-	 		//.roles("ADMIN");
-	 //}
-	@Autowired
-	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-		auth.inMemoryAuthentication()
-			.passwordEncoder(encoder())
-	 		.withUser("admin").password(encoder().encode(""))
-	 		.roles("ADMIN");
-	 }
+//	@Autowired
+//	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+//		auth.inMemoryAuthentication()
+//			.passwordEncoder(encoder())
+//	 		.withUser("admin").password(encoder().encode(""))
+//	 		.roles("ADMIN");
+//	 }
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
 
-
-
-	
 	@Autowired
-	private UserDetailsService userDetailsService;
-
-//	@Autowired
-//    public void configAuthentication(AuthenticationManagerBuilder auth) throws Exception{
-//        auth.userDetailsService(userDetailsService1).passwordEncoder(encoder());
-//    }
+    public void configAuthentication(AuthenticationManagerBuilder auth) throws Exception{
+        auth.userDetailsService(userDetailsService1).passwordEncoder(encoder());
+    }
 }
 
