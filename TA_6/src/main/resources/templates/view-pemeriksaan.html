@@ -7,33 +7,14 @@
 
 <body>
     <nav th:replace="fragments/fragment :: navbar"></nav>
-    <div class="container-fluid">
+	<div class="container-fluid">
 		<br>
-		<table border="I">
-			<thead>
-				<tr>
-					<th style="text-align: center">No.</th>
-					<th style="text-align: center">Id</th>
-					<th style="text-align: center">Nama Pasien</th>
-					<th style="text-align: center">Action</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr th:each="pasien,iterationStatus : ${pasien}">
-					<td th:text="${iterationStatus.count}"></td>
-					<td th:text="${pasien.id}"></td>
-					<td th:text="${pasien.nama_pasien}"></td>
-					<td><a
-						th:href="@{/pemeriksaan/permintaan/{id}} + ${pasien.id}">Request Jadwal</a></td>
-				</tr>
-			</tbody>
-		</table>
-		<div class="row">
 		<form th:action="@{/lab/pemeriksaan/pasien}">
 			<input type="hidden">
 			<button type="submit" class="btn btn-primary">Lihat Pasien</button>
 		</form>
 		<br>
+
 		<div class="row">
             <div class="col-md-6">
                 <div class="card" th:each="jadwal,iterationStatus : ${jadwal}">
@@ -54,5 +35,6 @@
                 </div>
             </div>
         </div>
+	</div>
 </body>
 </html>
