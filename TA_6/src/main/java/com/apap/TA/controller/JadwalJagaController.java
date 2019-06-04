@@ -29,7 +29,7 @@ public class JadwalJagaController {
 	@Autowired
 	private JadwalJagaService jadwalJagaService;
 	
-	@RequestMapping(value= "/lab/jadwal-jaga/hihu", method =RequestMethod.GET)
+	@RequestMapping(value= "/lab/jadwal-jaga/view", method =RequestMethod.GET)
 	private String viewStaff (Model model) {
 		List <StaffModel> archieveStaff = staffService.getAllStaff();
 		model.addAttribute("listStaff", archieveStaff);
