@@ -19,7 +19,6 @@ public class UserRoleServiceImpl implements UserRoleService{
     @Override
     public UserRoleModel addUser(UserRoleModel user) {
         String pass = encrypt(user.getPassword());
-        System.out.println(pass);
         user.setPassword(pass);
         return userDb.save(user);
     }

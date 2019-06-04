@@ -1,0 +1,89 @@
+package com.apap.TA.model;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/*
+ * StokLabModel
+ */
+
+@Entity
+@Table (name = "stoklab")
+public class StokLabModel implements Serializable {
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getJenis_barang() {
+		return jenis_barang;
+	}
+
+	public void setJenis_barang(String jenis_barang) {
+		this.jenis_barang = jenis_barang;
+	}
+
+	public String getNama_barang() {
+		return nama_barang;
+	}
+
+	public void setNama_barang(String nama_barang) {
+		this.nama_barang = nama_barang;
+	}
+
+	public int getJumlah_barang() {
+		return jumlah_barang;
+	}
+
+	public void setJumlah_barang(int jumlah_barang) {
+		this.jumlah_barang = jumlah_barang;
+	}
+
+	public String getDeskripsi_barang() {
+		return deskripsi_barang;
+	}
+
+	public void setDeskripsi_barang(String deskripsi_barang) {
+		this.deskripsi_barang = deskripsi_barang;
+	}
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+	
+    @NotNull
+    @Size(max = 255)
+    @Column(name = "jenis_barang", nullable = false)
+    private String jenis_barang;
+    
+    @NotNull
+    @Size(max = 255)
+    @Column(name = "nama_barang", nullable = false)
+    private String nama_barang;
+    
+    @NotNull
+    @Column(name = "jumlah_barang", nullable = false)
+    private int jumlah_barang;
+    
+    @NotNull
+    @Size(max = 255)
+    @Column(name = "deskripsi_barang", nullable = false)
+    private String deskripsi_barang;
+    
+    
+    
+
+}
+
+

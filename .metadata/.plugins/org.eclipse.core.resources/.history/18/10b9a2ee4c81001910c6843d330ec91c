@@ -1,0 +1,18 @@
+package repository.copy;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.apap.TA.model.StokLabModel;
+
+/**
+ * FlightDb
+ */
+
+@Repository
+public interface StokLabDb extends JpaRepository<StokLabModel, Long> {
+	Optional<StokLabModel> findByNamaBarang(String namaBarang);
+}	
+

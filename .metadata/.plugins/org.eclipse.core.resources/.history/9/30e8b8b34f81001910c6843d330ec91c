@@ -1,0 +1,9 @@
+package com.apap.TA.service;
+
+import com.apap.TA.model.StokLabModel;
+
+public interface StokLabService {
+
+	StokLabModel addStok(StokLabModel stok);
+
+}

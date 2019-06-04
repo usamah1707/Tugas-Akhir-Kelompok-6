@@ -38,22 +38,26 @@ public class ReagenController {
     			listReagen.add(stok);
     		}
     	}
-    	model.addAttribute("kebutuhan", new KebutuhanReagenModel());
         model.addAttribute("listReagen", listReagen);
+        model.addAttribute("kebutuhan", new KebutuhanReagenModel());
         return "add-kebutuhan";
     }
 
     @RequestMapping(value = "/lab/kebutuhan/tambah", method = RequestMethod.POST)
-    private String tambahKebutuhanSubmit(@ModelAttribute KebutuhanReagenModel kebutuhan, Model model) {
-    	reagenService.addKebutuhan(kebutuhan);	
-        model.addAttribute("success", "Berhasil!");
-        return "add-kebutuhan";
+    private String tambahKebutuhanSubmit(@ModelAttribute KebutuhanReagenModel kebutuhan, @ModelAttribute("itemReagen") LabSuppliesModel itemReagen, Model model) {
+        Date date = new Date(Calendar.getInstance().getTime().getTime());
+        kebutuhan.setTanggal_update(date);
+
+        System.out.println("---------------------------> " + itemReagen);
+        kebutuhan.setLab_supplies(itemReagen);
+        reagenService.addKebutuhan(kebutuhan);
+        return "add";
     }
     @RequestMapping(value = "/lab/kebutuhan", method = RequestMethod.GET)
     private String view(Model model) {
         List<KebutuhanReagenModel> list = reagenService.getAllKebutuhanReagen();
         model.addAttribute("reagen", list);
-        return "kebutuhan-reagen";
+        return "view-reagen";
     }
 
     @RequestMapping(value = "/lab/kebutuhan/ubah/{id}", method = RequestMethod.GET)

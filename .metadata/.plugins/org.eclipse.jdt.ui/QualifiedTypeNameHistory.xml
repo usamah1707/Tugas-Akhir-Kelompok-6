@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="service.StokLabService"/>
+    <fullyQualifiedTypeName name="com.apap.TA.model.StokLabModel"/>
+    <fullyQualifiedTypeName name="repository.StokLabDb"/>
+    <fullyQualifiedTypeName name="com.apap.TA.repository.StokLabDb"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+</qualifiedTypeNameHistroy>

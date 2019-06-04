@@ -9,6 +9,7 @@
     <nav th:replace="fragments/fragment :: navbar"></nav>
     <div class="container-fluid">
 		<br>
+<<<<<<< HEAD
 		<table border="I">
 			<thead>
 				<tr>
@@ -24,28 +25,37 @@
 					<td th:text="${pasien.id}"></td>
 					<td th:text="${pasien.nama_pasien}"></td>
 					<td><a
-						th:href="@{/pemeriksaan/permintaan/} + ${pasien.id}">Request Jadwal</a></td>
+						th:href="@{/pemeriksaan/permintaan/{id}} + ${pasien.id}">Request Jadwal</a></td>
 				</tr>
 			</tbody>
 		</table>
 		<!-- <div class="row">
+=======
+		<form th:action="@{/lab/pemeriksaan/pasien}">
+			<input type="hidden">
+			<button type="submit" class="btn btn-primary">Lihat Pasien</button>
+		</form>
+		<br>
+		<div class="row">
+>>>>>>> e441c130144aa3bc53ee8cbef4fd3a58f8db5823
             <div class="col-md-6">
                 <div class="card" th:each="jadwal,iterationStatus : ${jadwal}">
                     <div class="card-header" th:text="'Jadwal ID : ' + ${jadwal.id}"></div>
                     <div class="card-body">
-                    	<p th:text="'Nama Pasien   				: ' + ${jadwal.nama}"></p>
                     	<p th:text="'Tanggal Pengajuan 		 	: ' + ${jadwal.tanggal_pengajuan}"></p>
                     	<p th:text="'Tanggal Pemeriksaan		: ' + ${jadwal.tanggal_pemeriksaan}"></p>
                         <p th:text="'Status         			: ' + ${jadwal.status}"></p>
                         <p th:text="'Hasil	         			: ' + ${jadwal.hasil}"></p>
                         <div class="row">
-                            <!--<button>
-                            <td><a th:href="@{/lab/pemeriksaan/permintaan} + @{jadwal.id}">Update Informasi Jadwal Periksa</a></td>
+                            <button>
+                            <td>
+                            	<a th:href="@{/lab/pemeriksaan/ubah/} + ${jadwal.id}">Update Informasi Jadwal Periksa</a>
+                            </td>
                             </button>
                         </div> 
                     </div>
                 </div>
             </div>
-        </div>  -->
+        </div>
 </body>
 </html>

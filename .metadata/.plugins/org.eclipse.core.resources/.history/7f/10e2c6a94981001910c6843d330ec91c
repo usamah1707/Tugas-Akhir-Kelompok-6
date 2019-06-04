@@ -1,0 +1,28 @@
+package service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.apap.TA.model.StokLabModel;
+
+import repository.StokLabDb;
+
+@Service
+@Transactional
+public class StokLabServiceImpl implements StokLabService {
+    @Autowired
+    private StokLabDb stokLabDb;
+
+	@Override
+	public StokLabModel addStok(StokLabModel stok) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
