@@ -22,12 +22,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/js/**").permitAll()
                 //.antMatchers("/", "/login", "/kebutuhan").hasAnyAuthority("Admin", "Staf")
 
-                //.antMatchers("/lab/kebutuhan/ubah/**", "/lab/jadwal-jaga/tambah","/lab/jadwal-jaga/ubah/**", "/lab/stok/tambah", "/lab/stok/ubah/**")
-                //.hasAnyAuthority("Admin", "GOD")
-                //.antMatchers("/lab/kebutuhan", "/lab/pemeriksaan/permintaan", "/lab/pemeriksaan/**", "/lab/jadwal-jaga/all", "/lab/jadwal-jaga/**", "/lab/stok")
-                //.hasAnyAuthority("Admin", "Staf", "GOD")
-               // .antMatchers("/lab/kebutuhan/tambah")
-                //.hasAnyAuthority("Staf", "GOD")
+                .antMatchers("/lab/kebutuhan/ubah/**", "/lab/jadwal-jaga/tambah","/lab/jadwal-jaga/ubah/**", "/lab/stok/tambah", "/lab/stok/ubah/**")
+                .hasAnyAuthority("Admin","GOD")
+                .antMatchers("/lab/kebutuhan", "/lab/pemeriksaan/permintaan", "/lab/pemeriksaan/**", "/lab/jadwal-jaga/all", "/lab/jadwal-jaga/**", "/lab/stok")
+                .hasAnyAuthority("Admin", "Staf","GOD")
+                .antMatchers("/lab/kebutuhan/tambah")
+                .hasAnyAuthority("Staf","GOD")
 
               //  .antMatchers("/kebutuhan/ubah").hasAnyAuthority("Admin")
                 .anyRequest().authenticated()
@@ -49,20 +49,19 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	 		//.roles("USER");
 	 //}
 
-	@Autowired
-	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-		auth.inMemoryAuthentication()
-			.passwordEncoder(encoder())
-	 		.withUser("admin").password(encoder().encode(""))
-	 		.roles("ADMIN");
-	 }
+	//@Autowired
+	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+		//auth.inMemoryAuthentication()
+			//.passwordEncoder(encoder())
+	 		//.withUser("admin").password(encoder().encode(""))
+	 		//.roles("ADMIN");
+	 //}
 
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
-
 	
 	@Autowired
 	private UserDetailsService userDetailsService;
