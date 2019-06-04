@@ -8,17 +8,49 @@
 <body>
 	  <nav th:replace="fragments/fragment :: navbar"></nav>
     <div class="container-fluid">
-    <br>
-    <form th:action="@{/lab/jadwal-jaga/staff}">
-    	<input type= "hidden">
-    	<button type ="submit" class="btn btn-primary">Tambah Staff</button>
-    </form>
-    <br>
-    <br>
-    <form th:action="@{/lab/jadwal-jaga/tambah}">
-    	<input type="hidden">
-    	<button type="submit" class="btn btn-primary">Tambah Jadwal</button>
-    </form>
+    <h2 th:text="'Hello ' + ${#httpServletRequest.remoteUser} + '!' "></h2>
+    	<div class="row">
+   			<div class="col-md-4">
+   				<div class="card">
+   					<div class="card-header">Tambah Staff</div>
+   					<div class="card-body">
+   						<p class="card-text">Fitur untuk menambahkan staff </p>
+   						<a class="btn btn-primary" th:href="@{/lab/jadwal-jaga/staff}">Tambah</a>	
+   							</div>
+   					</div>
+   				</div>
+   			</div>
+   			<br>
+   			<br>
+    	<div class="row">
+   			<div class="col-md-4">
+   				<div class="card">
+   					<div class="card-header">Tambah Jadwal</div>
+   					<div class="card-body">
+   						<p class="card-text">Fitur untuk menambahkan jadwal </p>
+   						<a class="btn btn-primary" th:href="@{/lab/jadwal-jaga/tambah}">Tambah</a>	
+   							</div>
+   					</div>
+   				</div>
+   			</div>
+   			<br>
+   			<br>
+   			<div class="row">
+   				<div class="col-md-4">
+   					<div class="card">
+   						<div class="card-header">Lihat Jadwal Staff</div>
+   						<div class="card-body">
+   							<form th:action="@{/lab/jadwal-jaga}" method="GET">
+   								<label for="tanggal">Tanggal: </label>
+   								<input type="date" name="tanggal" class="form-control"/>
+   								<button type="submit" class="btn btn-primary">Cari</button>
+   							</form>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   			<br>
+   			<br>
     <div class="row">
     	<div class="col-md-6">
     		<div class="card" th:each="staff, iterationStatus :*{listStaff}">
