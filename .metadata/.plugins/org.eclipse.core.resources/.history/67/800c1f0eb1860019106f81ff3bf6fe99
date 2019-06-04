@@ -12,7 +12,7 @@
 	<nav th:replace="fragments/fragment :: navbar"></nav>
 
 	<div class="container-fluid">
-		<br><br>
+		<br>
 		<form th:action="@{/lab/stok/tambah}">
 			<input type="hidden"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
@@ -24,10 +24,10 @@
 			<button type="submit" class="btn btn-primary">Tambah Stok
 				Lab</button>
 		</form>
-		<br><hr>
+		<br>
 		<div class="row">
 			<span class="col-md-2"></span>
-			
+			<br>
 			<div class="col-md-8">
 				<div class="card" th:each="stok,iterationStatus : *{listStok}">
 					<div class="card-header" th:text="'Id : ' + ${stok.id}"></div>
