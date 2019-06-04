@@ -35,7 +35,7 @@
 						<p th:text="'Status         : ' + ${reagen.status}"></p>
 						<p th:text="'Tanggal Update : ' + ${reagen.tanggal_update}"></p>
 
-						<br><div class="row">
+						<div class="row">
 							&nbsp &nbsp<button>
 								&nbsp<td><a th:href="@{kebutuhan/ubah/} + ${reagen.id}">Update
 										Informasi Reagen</a></td>
@@ -47,8 +47,7 @@
 				</div>
 				
 			</div>
-			
+			<br>
 		</div>
-		<br>
 </body>
 </html>
