@@ -53,13 +53,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll();
     }
 
-//	@Autowired
-//	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-//		auth.inMemoryAuthentication()
-//			.passwordEncoder(encoder())
-//	 		.withUser("admin").password(encoder().encode(""))
-//	 		.roles("ADMIN");
-//	 }
+	@Autowired
+	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+		auth.inMemoryAuthentication()
+			.passwordEncoder(encoder())
+	 		.withUser("admin").password(encoder().encode(""))
+	 		.roles("ADMIN");
+	 }
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
