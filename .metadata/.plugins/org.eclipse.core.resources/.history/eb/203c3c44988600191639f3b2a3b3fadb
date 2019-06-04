@@ -18,7 +18,7 @@
             <div class="col-md-12">
                     <br>
                     
-      &nbsp  <h2 align = "center"><strong>Welcomee to RSCS!</strong></h2>
+      &nbsp  <h2 align = "center"><strong>Welcome to RSCS!</strong></h2>
         <br>
         <div class="row" align = "center">
             <div class="col-md-12">
@@ -48,9 +48,15 @@
                                 <input type="password" class="col-sm-7 form-control input-sm" name="password">
                             </div>
                             <div class="row form-group">
+<<<<<<< HEAD
                             
 
                             &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <button type="submit" class="btn btn-primary" align = "center">Sign In</button>
+
+                               &nbsp &nbsp &nbsp &nbsp  <button type="submit" class="btn btn-primary" style="text-align: left">Log In</button>
+=======
+                                <button type="submit" class="btn btn-primary" style="text-align: left">Log In</button>
+>>>>>>> d92c87731ea39b829119d6c6081ee3903ce72e96
                             </div>
                         </form>
                     </div>

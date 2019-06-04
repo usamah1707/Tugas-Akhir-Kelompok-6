@@ -51,6 +51,10 @@
                             
 
                             &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <button type="submit" class="btn btn-primary" align = "center">Sign In</button>
+
+                               &nbsp &nbsp &nbsp &nbsp  <button type="submit" class="btn btn-primary" style="text-align: left">Log In</button>
+                       
+
                             </div>
                         </form>
                     </div>

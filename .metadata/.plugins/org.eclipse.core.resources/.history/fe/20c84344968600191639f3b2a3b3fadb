@@ -13,7 +13,7 @@
             <span class="col-md-3"></span>
             <div class="col-md-8">
                     <br>
-    <h2 th:text="'Hellooo ' + ${#httpServletRequest.remoteUser} + '!' "></h2>
+    <h2 th:text="'Hello ' + ${#httpServletRequest.remoteUser} + '!' "></h2>
     	<div class="row">
    			<div class="col-md-4">
    				<div class="card">
