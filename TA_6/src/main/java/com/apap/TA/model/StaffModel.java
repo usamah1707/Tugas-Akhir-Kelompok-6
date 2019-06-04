@@ -48,6 +48,15 @@ public class StaffModel implements Serializable {
     }
     @OneToMany (mappedBy="staff", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     private List <JadwalJagaModel> listJadwal;
+
+	public List<JadwalJagaModel> getListJadwal() {
+		return listJadwal;
+	}
+
+	public void setListJadwal(List<JadwalJagaModel> listJadwal) {
+		this.listJadwal = listJadwal;
+	}
+    
     
 }
 
