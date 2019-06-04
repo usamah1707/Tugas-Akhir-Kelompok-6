@@ -11,7 +11,10 @@
 <nav th:replace="fragments/login-frag :: navbar"></nav>
 
 <body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdf0de623560873eda63e1ce3ae0ecb124088a77
     <div class="container-fluid" >
     
      <div class="row"  >
@@ -53,8 +56,10 @@
 
 
                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                                &nbsp
-                              
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp
                                 <button type="submit" class="btn btn-primary" style="text-align: left">Log In</button>
 
                                 </div>

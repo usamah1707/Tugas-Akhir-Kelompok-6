@@ -1686,3 +1686,33 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 16:24:14.342
 !MESSAGE executing callback sts4.classpath.yyBkNtUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:14:06.091
+!MESSAGE Preparing classpath changed notification TA_6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:14:06.094
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:14:06.098
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:14:06.098
+!MESSAGE executing callback sts4.classpath.yyBkNtUB TA_6 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:14:06.117
+!MESSAGE executing callback sts4.classpath.yyBkNtUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:15:36.648
+!MESSAGE Preparing classpath changed notification TA_6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:15:36.648
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:15:36.652
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:15:36.653
+!MESSAGE executing callback sts4.classpath.yyBkNtUB TA_6 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 17:15:36.693
+!MESSAGE executing callback sts4.classpath.yyBkNtUB SUCCESS [done]

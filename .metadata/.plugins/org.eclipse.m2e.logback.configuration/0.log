@@ -2652,3 +2652,45 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2019-06-04 17:11:33,132 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-06-04 17:11:33,136 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-06-04 17:11:33,136 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:14:02,958 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:14:02,958 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:14:02,959 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:14:02,963 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:14:02,963 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:14:04,546 [Worker-31: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:TA_6:0.0.1-SNAPSHOT @ /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/pom.xml.
+2019-06-04 17:15:35,112 [Worker-56: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:TA_6:0.0.1-SNAPSHOT @ /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/pom.xml.
+2019-06-04 17:15:36,384 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:15:36,397 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:15:36,430 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 43 resources
+2019-06-04 17:15:36,547 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:15:36,548 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:15:38,862 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:15:38,867 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:15:38,873 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 43 resources
+2019-06-04 17:15:38,979 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:15:38,979 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:16:10,018 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:10,018 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:16:10,020 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:16:10,022 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:10,022 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:16:54,507 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:54,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:16:54,509 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:16:54,512 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:54,512 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:16:59,986 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:59,986 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:16:59,986 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:16:59,990 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:16:59,990 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:17:06,322 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:17:06,323 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:17:06,323 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:17:06,325 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:17:06,326 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources
+2019-06-04 17:17:11,654 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:17:11,654 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-04 17:17:11,654 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-04 17:17:11,657 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-04 17:17:11,657 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciachristiana/Desktop/semangat/UI/akademis/smt_6/apap/Tugas-Akhir-Kelompok-6/TA_6/src/test/resources

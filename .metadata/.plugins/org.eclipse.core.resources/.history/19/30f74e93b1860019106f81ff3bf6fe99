@@ -11,7 +11,10 @@
 <nav th:replace="fragments/login-frag :: navbar"></nav>
 
 <body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdf0de623560873eda63e1ce3ae0ecb124088a77
     <div class="container-fluid" >
     
      <div class="row"  >
@@ -50,11 +53,19 @@
                                 <input type="password" class="col-sm-7 form-control input-sm" name="password">
                             </div>
                             <div class="row form-group">
+<<<<<<< HEAD
+                            
 
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <button type="submit" class="btn btn-primary" align = "center">Sign In</button>
+
+
+=======
 
                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                                &nbsp
-                              
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                &nbsp &nbsp
                                 <button type="submit" class="btn btn-primary" style="text-align: left">Log In</button>
 
                                 </div>
@@ -71,6 +82,8 @@
             </div>
      </div>
     </div>
+
+>>>>>>> cdf0de623560873eda63e1ce3ae0ecb124088a77
 </body>
 
 </html>
