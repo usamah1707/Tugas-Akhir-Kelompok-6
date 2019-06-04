@@ -12,12 +12,19 @@
     <nav th:replace="fragments/fragment :: navbar"></nav>
 
     <div class="container-fluid">
-        <h2>Hello!</h2>
+    
+    <div class="row">
+            <span class="col-md-1"></span>
+            <div class="col-md-10">
+                    <br>
+                    
+         <h2><strong>Tambah Stok Lab</strong></h2> 
+            <hr>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">
-                        Tambah Stok
+                    <div class="card-header"><strong>
+                        Tambah Stok </strong>
                     </div>
                     <div class="card-body">
                         <form th:action="@{/lab/stok/tambah}" th:object="${stok}" method="POST">

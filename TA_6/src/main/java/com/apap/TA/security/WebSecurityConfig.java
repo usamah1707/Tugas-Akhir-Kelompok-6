@@ -41,34 +41,28 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
-	//@Autowired
-	//public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
-		//auth.inMemoryAuthentication()
-			//.passwordEncoder(encoder())
-	 		//.withUser("cokicoki").password(encoder().encode("enakSekali"))
-	 		//.roles("USER");
-	 //}
-
 	@Autowired
 	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
 		auth.inMemoryAuthentication()
 			.passwordEncoder(encoder())
-	 		.withUser("admin").password(encoder().encode(""))
-	 		.roles("ADMIN");
+	 		.withUser("cokicoki").password(encoder().encode("enakSekali"))
+	 		.roles("USER");
 	 }
-<<<<<<< HEAD
-=======
 
->>>>>>> c0a7f98ab25c79aa6cdb1b592c5e2374c01d170f
+//	@Autowired
+//	public void configureGlobal (AuthenticationManagerBuilder auth) throws Exception{
+//		auth.inMemoryAuthentication()
+//			.passwordEncoder(encoder())
+//	 		.withUser("admin").password(encoder().encode(""))
+//	 		.roles("ADMIN");
+//	 }
+
 
 	@Bean
 	public BCryptPasswordEncoder encoder() {
 		return new BCryptPasswordEncoder();
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> c0a7f98ab25c79aa6cdb1b592c5e2374c01d170f
 	
 	@Autowired
 	private UserDetailsService userDetailsService;

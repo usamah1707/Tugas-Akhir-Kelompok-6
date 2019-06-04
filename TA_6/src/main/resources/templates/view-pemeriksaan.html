@@ -24,7 +24,7 @@
 					<td th:text="${pasien.id}"></td>
 					<td th:text="${pasien.nama_pasien}"></td>
 					<td><a
-						th:href="@{/pemeriksaan/permintaan/} + ${pasien.id}">Request Jadwal</a></td>
+						th:href="@{/pemeriksaan/permintaan/{id}} + ${pasien.id}">Request Jadwal</a></td>
 				</tr>
 			</tbody>
 		</table>
