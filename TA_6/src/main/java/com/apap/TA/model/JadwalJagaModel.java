@@ -1,6 +1,7 @@
 package com.apap.TA.model;
 
 import java.io.Serializable;
+
 import java.sql.Date;
 import java.util.List;
 
@@ -87,11 +88,11 @@ public class JadwalJagaModel implements Serializable{
 		this.waktuSelesai = waktuSelesai;
 	}
 
-	public StaffModel getIdStaff() {
+	public StaffModel getStaff() {
 		return staff;
 	}
 
-	public void setIdStaff() {
+	public void setStaff(StaffModel staff) {
 		this.staff = staff;
 	}
 
