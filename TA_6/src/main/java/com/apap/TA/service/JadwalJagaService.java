@@ -11,9 +11,11 @@ public interface JadwalJagaService {
 	//ini buat liat seluruh jadwal tanpa tanggal
 	List <JadwalJagaModel> getAllJadwal();
 	//ini buat liat seluruh jadwal berdasarkan tanggal
-	Optional <JadwalJagaModel> findByTanggal (Date Tanggal);
+	List <JadwalJagaModel> findByTanggal (Date Tanggal);
 	//ini liat seluruh jadwal berdasarkan id 
 	Optional <JadwalJagaModel> getJadwalDetail (int id);
+	//untuk validatejadwal
+	boolean validateJadwal(JadwalJagaModel jadwal);
 	
 
 }
