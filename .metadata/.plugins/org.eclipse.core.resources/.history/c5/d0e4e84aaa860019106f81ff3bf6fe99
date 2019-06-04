@@ -52,6 +52,16 @@
             <!--<artifactId>postgresql</artifactId>-->
             <!--<scope>runtime</scope>-->
         <!--</dependency>-->
+
+<<<<<<< HEAD
+=======
+ <!--        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency> -->
+
+>>>>>>> 0ccf3fc9e3d364e44aac44e245046837876fab25
         <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -64,7 +74,16 @@
 	</dependencies>
 
 	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 			<!--  <plugin>
+<<<<<<< HEAD
+=======
+				<plugin>
+>>>>>>> 0ccf3fc9e3d364e44aac44e245046837876fab25
 				<groupId>com.heroku.sdk</groupId>
 				<artifactId>heroku-maven-plugin</artifactId>
 			</plugin>
@@ -84,6 +103,7 @@
 			</plugin> -->
 
 
+		</plugins>
 	</build>
 
 

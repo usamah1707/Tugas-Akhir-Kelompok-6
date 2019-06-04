@@ -20,7 +20,7 @@ import java.sql.Time;
 public class JenisPemeriksaanModel implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Long id;
 
     @NotNull
     @Size(max = 255)
