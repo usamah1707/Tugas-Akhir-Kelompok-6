@@ -640,3 +640,18 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:29:38.946
 !MESSAGE executing callback sts4.classpath.weBPXwAQ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:57:52.506
+!MESSAGE Preparing classpath changed notification TA_6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:57:52.510
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:57:52.539
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:57:52.540
+!MESSAGE executing callback sts4.classpath.weBPXwAQ TA_6 false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 12:57:52.568
+!MESSAGE executing callback sts4.classpath.weBPXwAQ SUCCESS [done]
