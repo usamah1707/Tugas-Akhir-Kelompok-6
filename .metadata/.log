@@ -902,3 +902,54 @@ Binding(COMMAND+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:05.777
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:05.779
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@61c1be2f[org.springframework.tooling.boot.ls:1.4.0.201902210636(id=615)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:05.782
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:05.824
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.229
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yyBkNtUB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.230
+!MESSAGE subscribing to classpath changes: sts4.classpath.yyBkNtUB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.232
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.236
+!MESSAGE subsribers = [sts4.classpath.yyBkNtUB]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.236
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.260
+!MESSAGE project TA_6 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.262
+!MESSAGE Preparing classpath changed notification TA_6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.263
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.266
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yyBkNtUB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.272
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.273
+!MESSAGE executing callback sts4.classpath.yyBkNtUB TA_6 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-04 15:00:17.378
+!MESSAGE executing callback sts4.classpath.yyBkNtUB SUCCESS [done]
