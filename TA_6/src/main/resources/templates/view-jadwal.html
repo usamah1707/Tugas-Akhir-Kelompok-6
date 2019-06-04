@@ -8,9 +8,17 @@
 <body>
 	  <nav th:replace="fragments/fragment :: navbar"></nav>
     <div class="container-fluid">
-    <h2 th:text="'Hello ' + ${#httpServletRequest.remoteUser} + '!' "></h2>
+    <div class="row">
+    
+            <span class="col-md-1"></span>
+            <div class="col-md-10">
+                    <br>
+    <h2 align = "center" th:text="'Hello ' + ${#httpServletRequest.remoteUser} + '!' "><strong></strong></h2>
+    	<hr><br>
+    	
     	<div class="row">
-   			<div class="col-md-4">
+    		<span class="col-md-3"></span>
+   			<div class="col-md-6">
    				<div class="card">
    					<div class="card-header">Tambah Staff</div>
    					<div class="card-body">
@@ -23,7 +31,8 @@
    			<br>
    			<br>
     	<div class="row">
-   			<div class="col-md-4">
+   			<span class="col-md-3"></span>
+   			<div class="col-md-6">
    				<div class="card">
    					<div class="card-header">Tambah Jadwal</div>
    					<div class="card-body">
@@ -36,13 +45,16 @@
    			<br>
    			<br>
    			<div class="row">
-   				<div class="col-md-4">
+   				<span class="col-md-3"></span>
+   				<div class="col-md-6">
    					<div class="card">
    						<div class="card-header">Lihat Jadwal Staff</div>
    						<div class="card-body">
    							<form th:action="@{/lab/jadwal-jaga}" method="GET">
    								<label>Tanggal: </label>
+   								
    								<input type="date" name="tanggal" class="form-control"/>
+   								<br>
    								<button type="submit" class="btn btn-primary">Cari</button>
    							</form>
    						</div>
