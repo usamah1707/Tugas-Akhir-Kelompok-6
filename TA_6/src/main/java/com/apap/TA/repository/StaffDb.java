@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StaffDb extends JpaRepository<StaffModel, Long>{
-	//List <StaffModel> findById (int id);
+	List <StaffModel> findById (int id);
 	
 
 }
