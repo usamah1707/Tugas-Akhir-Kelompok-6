@@ -9,7 +9,6 @@
     <nav th:replace="fragments/fragment :: navbar"></nav>
     <div class="container-fluid">
 		<br>
-<<<<<<< HEAD
 		<table border="I">
 			<thead>
 				<tr>
@@ -29,15 +28,13 @@
 				</tr>
 			</tbody>
 		</table>
-		<!-- <div class="row">
-=======
+		<div class="row">
 		<form th:action="@{/lab/pemeriksaan/pasien}">
 			<input type="hidden">
 			<button type="submit" class="btn btn-primary">Lihat Pasien</button>
 		</form>
 		<br>
 		<div class="row">
->>>>>>> e441c130144aa3bc53ee8cbef4fd3a58f8db5823
             <div class="col-md-6">
                 <div class="card" th:each="jadwal,iterationStatus : ${jadwal}">
                     <div class="card-header" th:text="'Jadwal ID : ' + ${jadwal.id}"></div>
